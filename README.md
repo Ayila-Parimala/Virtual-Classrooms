@@ -1,37 +1,105 @@
-# 🎓 VirtualClassrooms
+# 📚 Virtual Classrooms
 
-A **full-stack virtual classroom application** built using **React.js**, **Node.js**, and **MongoDB**, designed to facilitate interactive online learning. This platform enables teachers to manage classes, track student attendance, and handle course content, while allowing students to participate in coursework, submit assignments, and ask questions.
+A full-stack web application that simplifies online teaching and learning, built using *React.js, **Node.js, and **MongoDB*.
 
 ---
 
 ## 🚀 Features
 
-### 👨‍🏫 For Teachers
-- Create and manage classes
-- Upload course materials (videos, PDFs, notes)
+### 👩‍🏫 For Teachers:
+- Upload and manage classes
 - Track student attendance
-- Post assignments
+- Post and manage assignments
 - Respond to student queries
 
-### 👩‍🎓 For Students
-- View enrolled classes and access materials
-- Submit assignments
-- Ask questions and interact with teachers
-- Track attendance and progress
+### 🎓 For Students:
+- Browse and join classes
+- Submit assignments online
+- Ask questions and get help from teachers
+- Access all study content in one place
+
+> ⏱ Designed to save up to *30%* of manual study and coordination time
 
 ---
 
-## 🛠️ Tech Stack
+## 🔐 Login & Access Control
 
-**Frontend:**
-- React.js
-- Tailwind CSS (optional/styled-components if used)
+### 👥 Student vs Teacher Access
 
-**Backend:**
-- Node.js
-- Express.js
-
-**Database:**
-- MongoDB
+- ✅ *Students* must *sign up* using the regular login/signup form on the homepage.
+- 🔒 *Teachers* must go through the *Admin Dashboard* to register.
+  - This ensures students *cannot act as teachers*.
+  - 🛡 *Admin Dashboard Password*: admin123
 
 ---
+
+## 🎥 Attendance Logic
+
+- Attendance is *automatically recorded* for students *only if*:
+  - They watch the uploaded video class.
+  - ⏳ *At least 70%* of the video must be completed.
+
+> Prevents fake attendance and ensures student participation.
+
+---
+
+## 🛠 Tech Stack
+
+| Frontend     | Backend      | Database |
+|--------------|--------------|----------|
+| React.js     | Node.js      | MongoDB  |
+
+
+---
+
+## 📂 Project Structure
+
+
+/frontend     → React frontend  
+/backend      → Node.js   
+/database     → MongoDB   
+
+
+---
+
+## 📦 Installation
+
+1. *Clone the repo*
+bash
+git clone https://github.com/svrajesh21/Virtual-Classrooms.git
+cd Virtual-Classrooms
+
+
+2. *Start frontend*
+bash
+cd frontend
+npm install
+npm start
+
+
+3. *Start backend*
+bash
+cd backend
+npm install
+npm start
+
+
+---
+
+## 🧪 Environment Variables
+
+Make sure to add your .env files with the appropriate API keys and Client IDs
+
+---
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact
+
+Feel free to reach out for collaboration or feedback!
+
+📧 *Email*: parimalaayila1@gmail.com
