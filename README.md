@@ -1,6 +1,6 @@
 # 📚 Virtual Classrooms
 
-A full-stack web application that simplifies online teaching and learning, built using *React.js, **Node.js, and **MongoDB*.
+A full-stack web application that simplifies online teaching and learning, built using **React.js**, **Node.js**, and **MongoDB**.
 
 ---
 
