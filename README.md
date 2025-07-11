@@ -62,36 +62,32 @@ A full-stack web application that simplifies online teaching and learning, built
 
 ---
 
+## 📦 Installation
 
-📦 Installation
-Clone the repo
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/Ayila-Parimala/Virtual-Classrooms.git
 cd Virtual-Classrooms
-Start frontend
+```
+
+### 2. Start frontend
+
+```bash
 cd frontend
 npm install
 npm start
-Start backend
+```
+
+### 3. Start backend
+
+```bash
 cd backend
 npm install
 npm start
+```
 
 
-2. *Start frontend*
-bash
-cd frontend
-npm install
-npm start
-
-
-3. *Start backend*
-bash
-cd backend
-npm install
-npm start
-
-
----
 
 ## 🧪 Environment Variables
 
