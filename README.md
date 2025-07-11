@@ -62,12 +62,19 @@ A full-stack web application that simplifies online teaching and learning, built
 
 ---
 
-## 📦 Installation
 
-1. *Clone the repo*
-bash
-git clone https://github.com/svrajesh21/Virtual-Classrooms.git
+📦 Installation
+Clone the repo
+git clone https://github.com/Ayila-Parimala/Virtual-Classrooms.git
 cd Virtual-Classrooms
+Start frontend
+cd frontend
+npm install
+npm start
+Start backend
+cd backend
+npm install
+npm start
 
 
 2. *Start frontend*
